@@ -1,6 +1,6 @@
-# kotlin-springboot-grpc-sample
+# grpc-kotlin-springboot-sample
 
-KotlinでSpringbootでgRPCするよ
+gRPC Kotlin in SpringBoot
 
 
 ## 動作確認
