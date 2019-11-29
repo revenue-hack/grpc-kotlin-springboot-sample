@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: local
+mybatis:
+  config-location: classpath:mybatis-config.xml
+  check-config-location: true
+---
+spring:
+  profiles: local
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/grpc_kotlin_example
+    username: grpc_kotlin_example
+    password: grpc_kotlin_example
+---
+spring:
+  profiles: devevelopment
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/grpc_kotlin_example
+    username: grpc_kotlin_example
+    password: grpc_kotlin_example
