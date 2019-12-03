@@ -3,7 +3,7 @@
 gRPC Kotlin in SpringBoot
 
 
-## 動作確認
+## invoke
 
 - boot run
 ```
